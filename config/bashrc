@@ -17,7 +17,7 @@ PS1='\W > '
 #tools
 alias rain='rainfall.py'
 alias clock='tty-clock -c -C 7 -f %B/%d/%g'
-alias fetch='fet.sh'
+
 
 #useful
 alias memory='watch -n 2 free -m'
@@ -31,6 +31,7 @@ alias update='sudo pacman -Syy && sudo pacman -Syu'
 alias orphans='sudo pacman -Rs $(pacman -Qtdq)'
 alias reflector='sudo reflector --verbose --sort rate -l 50 --save /etc/pacman.d/mirrorlist'
 
+#we want to use fish but not mess up log-in
 if [[ "$TERM" == *rxvt* ]]; then
    exec fish
 fi
