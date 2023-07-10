@@ -8,28 +8,28 @@
 alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ '
 #PS1='\W\$ '
-PS1='\W > '
+#PS1='\W > '
 
 #bind 'set show-all-if-ambiguous on'
 #bind 'TAB:menu-complete'
 
 #alias stuff
 #tools
-alias rain='rainfall.py'
-alias clock='tty-clock -c -C 7 -f %B/%d/%g'
+#alias rain='rainfall.py'
+#alias clock='tty-clock -c -C 7 -f %B/%d/%g'
 
 
 #useful
-alias memory='watch -n 2 free -m'
-alias gpu='watch -n 2 nvidia-smi'
+#alias memory='watch -n 2 free -m'
+#alias gpu='watch -n 2 nvidia-smi'
 
 #done
-alias finished='killall firefox & killall steam & killall Discord & killall xsensors & killall urxvt & killall Thunar'
+#alias finished='killall firefox & killall steam & killall Discord & killall xsensors & killall urxvt & killall Thunar'
 
 #important
-alias update='sudo pacman -Syy && sudo pacman -Syu'
-alias orphans='sudo pacman -Rs $(pacman -Qtdq)'
-alias reflector='sudo reflector --verbose --sort rate -l 50 --save /etc/pacman.d/mirrorlist'
+#alias update='sudo pacman -Syy && sudo pacman -Syu'
+#alias orphans='sudo pacman -Rs $(pacman -Qtdq)'
+#alias reflector='sudo reflector --verbose --sort rate -l 50 --save /etc/pacman.d/mirrorlist'
 
 #we want to use fish but not mess up log-in
 if [[ "$TERM" == *rxvt* ]]; then
