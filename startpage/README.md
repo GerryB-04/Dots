@@ -1,4 +1,4 @@
-# startpage
+# Startpage
 My startpage, edited from github.com/kencx
 
 # How to use?
@@ -10,7 +10,7 @@ My startpage, edited from github.com/kencx
 # Customization
 
 ### Image(s)
-i have included a few vaporwave/retro styled gifs in this repo, you can edit it on the line <b>22</b> in the index.html the ```src="clouds.gif"``` to something like ```src="plane.gif"``` or your own image/gif
+Included a few vaporwave/retro styled gifs in this repo, you can edit it on the line <b>22</b> in the index.html the ```src="clouds.gif"``` to something like ```src="plane.gif"``` or your own image/gif
 
 ### URLs
 you can edit all of the URLs to your desired, starting on line **44** in ```index.html```
@@ -19,7 +19,7 @@ you can edit all of the URLs to your desired, starting on line **44** in ```inde
 
 ### Categories
 
-i think you get it, starting on line **44** you can change the names of the categories etc. etc. i believe you're not dumb and understand
+I think you get it, starting on line **44** you can change the names of the categories etc. etc. i believe you're not dumb and understand
 
 # Screenshot
 ![image](https://user-images.githubusercontent.com/76164598/170824479-5918fe82-18df-4549-8b20-c2b1595a27d0.png)
